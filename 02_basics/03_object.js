@@ -18,8 +18,21 @@ console.log(jsuser[mysym])
 
 jsuser.email = "anukalp2809@gmail.com";
 
-Object.freeze(jsuser);
+// Object.freeze(jsuser); // used to freeze the object
 
 jsuser.email = "raajanukalp@gmail.com"
 
-console.log(jsuser)
+console.log(jsuser);
+
+jsuser.greeting = function(){
+    console.log("Hello User")
+}
+
+jsuser.greetingtwo = function(){
+    console.log(`Hello User, ${this.name}`)
+}
+
+
+console.log(jsuser.greeting());
+
+console.log(jsuser.greetingtwo())
