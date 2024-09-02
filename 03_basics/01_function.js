@@ -2,8 +2,8 @@
 
 function print() {
 
-    console.log("A")
-    console.log("N")
+    console.log("A");
+    console.log("N");
     console.log("U")
     console.log("K")
     console.log("A")
@@ -57,7 +57,7 @@ function handleobject(anyobject) {
     console.log(`user name is ${anyobject.name} email is ${anyobject.email}`) // jo parameter function me declare kye h wo use krna h
 }
 
-handleobject(userdata)     // kaha compulsory object name hee dalna hai
+handleobject(userdata)     //compulsory object name hee dalna hai
 
 handleobject({
     name: "ritik",
